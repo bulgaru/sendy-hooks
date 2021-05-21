@@ -1,4 +1,4 @@
-[![Support](https://img.shields.io/badge/paid%20support-hello%40bsensus.com-blue)](mailto:hello@bsensus.com) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/bsensus)
+[![Support](https://img.shields.io/badge/Paid%20support-hello%40bsensus.com-blue)](mailto:hello@bsensus.com) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/bsensus)
 
 # Sendy Hooks
 Sendy is a powerful email marketing platform. Yet often we need automation to have an efficient workflow.
