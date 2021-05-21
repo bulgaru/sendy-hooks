@@ -1,3 +1,5 @@
+[![Support](https://img.shields.io/badge/paid%20support-hello%40bsensus.com-blue)](mailto:hello@bsensus.com) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/bsensus)
+
 # Sendy Hooks
 Sendy is a powerful email marketing platform. Yet often we need automation to have an efficient workflow.
 
@@ -18,10 +20,8 @@ Simply upload the files into your Wordpress plugin directory.
 
 # Paid support
 
-[![Support](https://img.shields.io/badge/paid%20support-hello%40bsensus.com-blue)](mailto:hello@bsensus.com)
-
 For help with development, customisations and support contact us at hello@bsensus.com.
 
 # Donations
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/bsensus)
+Please consider donating to this project: https://paypal.me/bsensus. Your donation fund keeping this project alive and growing.
