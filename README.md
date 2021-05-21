@@ -18,6 +18,8 @@ Simply upload the files into your Wordpress plugin directory.
 
 # Paid support
 
+[![Support](https://img.shields.io/badge/paid%20support-hello%40bsensus.com-blue)](mailto:hello@bsensus.com)
+
 For help with development, customisations and support contact us at hello@bsensus.com.
 
 # Donations
