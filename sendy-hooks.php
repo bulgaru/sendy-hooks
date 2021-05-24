@@ -26,7 +26,7 @@ function sendy_hooks_init() {
  */
 add_action('admin_menu', 'plugin_admin_add_sendy_hooks_page');
 function plugin_admin_add_sendy_hooks_page() {
-  add_options_page('Sendy settings', 'Sendy Hooks', 'manage_woocommerce', 'sendy_hooks', 'plugin_admin_sendy_hooks_options');
+  add_options_page('Sendy settings', 'Sendy Hooks', 'manage_options', 'sendy_hooks', 'plugin_admin_sendy_hooks_options');
 }
 
 function plugin_admin_sendy_hooks_options() {
