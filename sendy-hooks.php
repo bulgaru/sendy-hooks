@@ -4,7 +4,7 @@
   Plugin URI: https://bsensus.com
   Description: Sendy integration with User registration, Contact Form 7 and WooCommerce
   Author: b-sensus
-  Version: 1.2
+  Version: 1.2.1
   Author URI: https://bsensus.com
   WC requires at least: 3.0.0
   WC tested up to: 5.2.2
@@ -18,7 +18,7 @@ define('SENDY_HOOKS_PLUGIN_DIR', untrailingslashit(dirname(SENDY_HOOKS_PLUGIN)))
  */
 add_action('init', 'sendy_hooks_init');
 function sendy_hooks_init() {
-  do_action('sendy_hooks_add_hooks', $flag);
+  do_action('sendy_hooks_add_hooks');
 }
 
 /**
