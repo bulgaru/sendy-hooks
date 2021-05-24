@@ -59,11 +59,13 @@ function plugin_api_settings_section_text() {
 }
 function plugin_sendy_hooks_url() {
   $options  = get_option('sendy_hooks');
-  echo "<input id='sendy_hooks_url' name='sendy_hooks[url]' type='text' size='50' value='{$options['url']}' />";
+  $url = $options && $options['url'] ? $options['url'] : '';
+  echo "<input id='sendy_hooks_url' name='sendy_hooks[url]' type='text' size='50' value='{$url}' />";
 }
 function plugin_sendy_hooks_key() {
   $options  = get_option('sendy_hooks');
-  echo "<input id='sendy_hooks_key' name='sendy_hooks[key]' type='text' size='50' value='{$options['key']}' />";
+  $key = $options && $options['key'] ? $options['key'] : '';
+  echo "<input id='sendy_hooks_key' name='sendy_hooks[key]' type='text' size='50' value='{$key}' />";
 }
 
 /**
