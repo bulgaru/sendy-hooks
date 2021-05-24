@@ -15,7 +15,8 @@ function sendy_hook_woocommerce_admin_init() {
 }
 function plugin_sendy_hooks_list_purchase() {
   $options  = get_option('sendy_hooks');
-  echo "<input id='sendy_hooks_list_purchase' name='sendy_hooks[list_purchase]' type='text' size='50' value='{$options['list_purchase']}' />";
+  $list_purchase = $options && $options['list_purchase'] ? $options['list_purchase'] : '';
+  echo "<input id='sendy_hooks_list_purchase' name='sendy_hooks[list_purchase]' type='text' size='50' value='{$list_purchase}' />";
 }
 
 // Add field validation

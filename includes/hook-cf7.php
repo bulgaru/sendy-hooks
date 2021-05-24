@@ -25,18 +25,21 @@ function sendy_hook_cf7_admin_init() {
 }
 function plugin_sendy_hooks_list_contact() {
   $options  = get_option('sendy_hooks');
-  echo "<input id='sendy_hooks_list_contact' name='sendy_hooks[list_contact]' type='text' size='50' value='{$options['list_contact']}' />";
+  $list_contact = $options && $options['list_contact'] ? $options['list_contact'] : '';
+  echo "<input id='sendy_hooks_list_contact' name='sendy_hooks[list_contact]' type='text' size='50' value='{$list_contact}' />";
 }
 function plugin_cf7_settings_section_text() {
   echo '<p>Please fill in the Contact Form 7 settings to be used.';
 }
 function plugin_sendy_hooks_cf7_name() {
   $options  = get_option('sendy_hooks');
-  echo "<input id='sendy_hooks_cf7_name' name='sendy_hooks[cf7_name]' type='text' size='50' value='{$options['cf7_name']}' />";
+  $cf7_name = $options && $options['cf7_name'] ? $options['cf7_name'] : '';
+  echo "<input id='sendy_hooks_cf7_name' name='sendy_hooks[cf7_name]' type='text' size='50' value='{$cf7_name}' />";
 }
 function plugin_sendy_hooks_cf7_email() {
   $options  = get_option('sendy_hooks');
-  echo "<input id='sendy_hooks_cf7_email' name='sendy_hooks[cf7_email]' type='text' size='50' value='{$options['cf7_email']}' />";
+  $cf7_email = $options && $options['cf7_email'] ? $options['cf7_email'] : '';
+  echo "<input id='sendy_hooks_cf7_email' name='sendy_hooks[cf7_email]' type='text' size='50' value='{$cf7_email}' />";
 }
 function plugin_sendy_hooks_cf7_forms() {
   $options  = get_option('sendy_hooks');

@@ -13,7 +13,8 @@ function sendy_hook_registration_admin_init() {
 }
 function plugin_sendy_hooks_list_registered() {
   $options  = get_option('sendy_hooks');
-  echo "<input id='sendy_hooks_list_registered' name='sendy_hooks[list_registered]' type='text' size='50' value='{$options['list_registered']}' />";
+  $list_registered = $options && $options['list_registered'] ? $options['list_registered'] : '';
+  echo "<input id='sendy_hooks_list_registered' name='sendy_hooks[list_registered]' type='text' size='50' value='{$list_registered}' />";
 }
 
 // Add field validation
